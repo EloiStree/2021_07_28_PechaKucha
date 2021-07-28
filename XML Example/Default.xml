@@ -1,0 +1,51 @@
+<xml>
+
+  <pechakucha title="A pecha kucha !" word1="Pattern" word2="Example" word3="" word4=""/>
+  
+  <slideuri id="1"> https://avatars.githubusercontent.com/u/20149493?v=4 </slideuri>
+  <slideuri id="2"> https://user-images.githubusercontent.com/20149493/120363687-b80fd000-c30c-11eb-8b1f-848e74e308ec.png</slideuri>
+  <slideuri id="3"> 3.png</slideuri>
+  <slideuri id="4"> 4.png</slideuri>
+  <slideuri id="5"> 5.png</slideuri>
+  <slideuri id="6"> 6.png</slideuri>
+  <slideuri id="7"> 7.png</slideuri>
+  <slideuri id="8"> 8.png</slideuri>
+  <slideuri id="9"> 9.png</slideuri>
+  <slideuri id="10">10.png</slideuri>
+  <slideuri id="11">11.png</slideuri>
+  <slideuri id="12">12.png</slideuri>
+  <slideuri id="13">13.png</slideuri>
+  <slideuri id="14">14.png</slideuri>
+  <slideuri id="15">15.png</slideuri>
+  <slideuri id="16">16.png</slideuri>
+  <slideuri id="17">17.png</slideuri>
+  <slideuri id="18">18.png</slideuri>
+  <slideuri id="19">19.png</slideuri>
+  <slideuri id="20">20.png</slideuri>
+
+  <metainfo  id="1" title="Hello/Topic" word1="Eloi" word2="Package" word3="Unity" word4="Downloadable"/>
+  <metainfo  id="2" title="In 20 seconds" word1="Hey" word2="Mon" word3="Ami" word4="!!!"/>
+  <metainfo  id="3" title="What was the problem" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="4" title="Why it is painfull" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="5" title="How we/I approched it" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="6" title="" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="7" title="" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="8" title="" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="9" title="" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="10" title="" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="11" title="" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="12" title="" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="13" title="" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="14" title="" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="15" title="" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="16" title="" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="17" title="Lead to conclusion" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="18" title="Conclusion" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="19" title="Call for action" word1="" word2="" word3="" word4=""/>
+  <metainfo  id="20" title="Thanks for listening" word1="" word2="" word3="" word4=""/>
+
+ 
+  <author name="Eloi Stree" website="https://eloistree.page.link/github" >
+    <howtocontact>Discord: https://eloistree.page.link/discord </howtocontact>
+  </author>
+</xml>
