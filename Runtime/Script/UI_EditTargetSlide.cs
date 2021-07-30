@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UI_EditTargetSlide : MonoBehaviour
 {
-    public UI_PechaImageLoader m_imageLoader;
+    public UI_ImageLoader m_imageLoader;
     public UI_MetaReminder m_metaReminder;
     public UI_PechaSlideSelection m_slideSelected;
 

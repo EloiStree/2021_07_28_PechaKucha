@@ -1,14 +1,16 @@
-
-{                                                                   
-            "name": "be.eloistree.basicpechakucha",          
+{
+    "name": "be.eloistree.basicpechakucha",
+    "rootNamespace": "",
     "references": [
-],                                                              
-    "optionalUnityReferences": [],                                  
-    "includePlatforms": [],                                                  
-    "excludePlatforms": [],                                         
-    "allowUnsafeCode": false,                                       
-    "overrideReferences": false,                                    
-    "precompiledReferences": [],                                    
-    "autoReferenced": true,                                         
-    "defineConstraints": []                                         
-}                                                                   
+        "GUID:51d0aef9e18727c45aa96c869efd929f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

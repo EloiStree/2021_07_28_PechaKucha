@@ -25,9 +25,9 @@ public class PechaKuchaDataMono : MonoBehaviour
         foreach (string item in m_metaDate.GetAllImagePathOrUrl())
         {
 
-            FirstDraftSaveAndLoadImages.ImageLoaderCallback callback = new FirstDraftSaveAndLoadImages.ImageLoaderCallback();
+            ImageLoaderCallback callback = new ImageLoaderCallback();
             
-            yield return FirstDraftSaveAndLoadImages.TryToLoadimageFromComputerOrWeb(item, callback);
+            yield return SaveAndLoadImagesUtility.TryToLoadimageFromDataOrURI(item, callback);
 
             if(!callback.HadError())
                 m_textures.SetSlideTexture((PechaSlideId)i, callback.m_downloaded);

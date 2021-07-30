@@ -17,8 +17,11 @@ public class PechaKuchaScriptable : ScriptableObject
 [System.Serializable]
 public class PechaKuchaWithMeta
 {
+    public string m_oneTweetPitch;
+    public string m_oneSentencePitch;
     public PechaMetaReminder m_topicOfPechaKucha = new PechaMetaReminder();
     public string[] m_1to20ImagesPathOrUrl = new string[20];
+    public string[] m_1to20ImagesAsBase64 = new string[20];
     public PechaMetaReminder[] m_pechaMetaInfo = new PechaMetaReminder[20];
     public PechaAuthor m_mainAuthor = new PechaAuthor();
 
@@ -39,11 +42,17 @@ public class PechaKuchaWithMeta
         m_topicOfPechaKucha = reminder;
     }
 
-    public void SetMetaReminder(PechaSlideId id, PechaMetaReminder reminderInfo)
+    public void SetMetaReminder(PechaSlideId slideId, PechaMetaReminder reminderInfo)
     {
-        int index = ((int)id) - 1;
+        int index = ((int)slideId) - 1;
         //should I copy it line by line instead of copy the ref ?
         m_pechaMetaInfo[index] = reminderInfo;
+    }
+
+    public void SetSlideAsBase64(PechaSlideId slideId, string base64)
+    {
+        int index = ((int)slideId) - 1;
+        m_1to20ImagesAsBase64[index] = base64;
     }
 
     public void GetReminder(PechaSlideId slideId, out PechaMetaReminder reminder)
@@ -72,6 +81,30 @@ public class PechaKuchaWithMeta
     public PechaAuthor GetAuthor()
     {
         return m_mainAuthor;
+    }
+
+    public void GetImageAsBase64(PechaSlideId id, out string base64)
+    {
+        int index = ((int)id) - 1;
+        base64 = m_1to20ImagesAsBase64[index] ;
+    }
+    public string GetOneTweetPitch()
+    {
+        return m_oneTweetPitch;
+    }
+
+    public string GetOneSentencePitch()
+    {
+        return m_oneSentencePitch;
+    }
+    public void SetOneSentencePitch(string text)
+    {
+        m_oneSentencePitch = text;
+    }
+
+    public void SetTweetPitch(string text)
+    {
+        m_oneTweetPitch = text;
     }
 }
 
@@ -131,11 +164,12 @@ public class PechaMetaReminder {
         m_fourWords.SetWordThree(text);
     }
 
+    
     public void SetWordTwo(string text)
     {
         m_fourWords.SetWordTwo(text);
     }
-
+   
 }
 
 [System.Serializable]
@@ -199,5 +233,6 @@ public class PechaAuthor
     public string m_name;
     public string m_contactInformation;
     public string m_websiteToFindAuthor;
+    public string m_avatarAsBase64;
 }
 
